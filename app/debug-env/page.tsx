@@ -65,7 +65,7 @@ export default function DebugEnvPage() {
               重要提示
             </h3>
             <ul className="text-sm text-blue-800 dark:text-blue-300 space-y-1 list-disc list-inside">
-              <li>如果值显示为 "undefined" 或占位符，请重启开发服务器</li>
+              <li>如果值显示为 &quot;undefined&quot; 或占位符，请重启开发服务器</li>
               <li>确保 .env.local 文件在项目根目录（与 package.json 同级）</li>
               <li>确保环境变量名称正确（NEXT_PUBLIC_ 前缀）</li>
               <li>修改环境变量后必须重启服务器才能生效</li>
